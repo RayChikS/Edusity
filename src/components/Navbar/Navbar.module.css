@@ -1,6 +1,6 @@
 nav {
   width: 100%;
-  background: var(--lightblack);
+  /* background: var(--lightblack); */
   color: var(--white);
   padding: 4px 0;
   position: fixed;
@@ -22,12 +22,3 @@ nav {
   font-size: 16px;
 }
 
-.btn {
-  background: var(--white);
-  border: 0;
-  outline: 0;
-  color: var(--midblack);
-  padding: 14px 25px;
-  font-size: 16px;
-  border-radius: 30px;
-}
