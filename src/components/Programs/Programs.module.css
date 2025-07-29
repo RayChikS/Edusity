@@ -1,0 +1,45 @@
+.programs {
+  margin: 80px auto;
+  width: 90%;
+}
+.programsList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.programListItem {
+  flex-basis: 31%;
+  position: relative;
+}
+.programListItem:hover .caption {
+  opacity: 1;
+  padding-top: 0;
+}
+.programItemImg {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.caption {
+  color: var(--white);
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--cardBack);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+}
+.captionIcon {
+  width: 60px;
+  margin-bottom: 10px;
+}
