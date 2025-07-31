@@ -22,3 +22,7 @@ nav {
   font-size: 16px;
 }
 
+.darkBar {
+  background-color: var(--subtitle);
+  transition: 0.5s;
+}
