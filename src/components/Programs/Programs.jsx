@@ -6,10 +6,12 @@ import program3 from "../../assets/program-3.png";
 import programIcon1 from "../../assets/program-icon-1.png";
 import programIcon2 from "../../assets/program-icon-2.png";
 import programIcon3 from "../../assets/program-icon-3.png";
+import { Title } from "../Title/Title";
 
 export const Programs = () => {
   return (
     <div className={css.programs}>
+      <Title subtitle="Our PROGRAMS" title="What We Offer" />
       <ul className={css.programsList}>
         <li className={css.programListItem}>
           <img className={css.programItemImg} src={program1} alt="card" />

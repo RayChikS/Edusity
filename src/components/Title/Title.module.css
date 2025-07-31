@@ -1,0 +1,16 @@
+.titleContent {
+  color: var(--subtitle);
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 70px 0 30px;
+}
+.subtitle {
+}
+.title {
+  font-size: 32px;
+  color: var(--title);
+  margin-top: 5px;
+  text-transform: none;
+}

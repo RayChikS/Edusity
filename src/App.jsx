@@ -2,6 +2,7 @@ import React from "react";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Hero } from "./components/Hero/Hero";
 import { Programs } from "./components/Programs/Programs";
+import { About } from "./components/About/About";
 
 export const App = () => {
   return (
@@ -10,6 +11,7 @@ export const App = () => {
       <Hero />
       <div className="container">
         <Programs />
+        <About />
       </div>
     </div>
   );

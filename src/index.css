@@ -22,6 +22,9 @@ BASE STYLES
   --lightblack: #333;
   --cardBack: rgba(0, 15, 152, 0.3);
   --heroOver: rgba(8, 0, 58, 0.7);
+  --subtitle: #212ea0;
+  --title: #000f38;
+  --text: #676767;
 }
 
 .visually-hidden {
