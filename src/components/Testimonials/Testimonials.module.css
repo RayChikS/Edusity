@@ -1,0 +1,66 @@
+.testimonials {
+  margin: 80px auto;
+  padding: 0 80px;
+  position: relative;
+}
+
+.nextBtn,
+.backBtn {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  padding: 15px;
+  width: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  background: var(--subtitle);
+}
+.backBtn {
+  right: auto;
+  left: 0;
+}
+
+.slider {
+  overflow: hidden;
+}
+.slide {
+  list-style: none;
+  width: 50%;
+  padding: 20px;
+}
+.slideContent {
+  color: var(--text);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  padding: 40px;
+  border-radius: 10px;
+  line-height: 1.4;
+}
+
+.slideHeader {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.slideList {
+  display: flex;
+  width: 200%;
+  overflow-x: hidden;
+  transition: 0.5s;
+  /* transform: translateX(-15%); */
+}
+
+.slideImg {
+  width: 65px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 4px solid var(--subtitle);
+}
+.slideText h3 {
+  color: var(--subtitle);
+}
+.slideText p {
+  color: var(--text-color);
+}

@@ -1,0 +1,30 @@
+.campus {
+  margin: 80px auto;
+  width: 90%;
+  text-align: center;
+}
+.campusList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.listItem {
+}
+.listImg {
+  border-radius: 10px;
+  width: 90%;
+}
+
+.darkBtn {
+  background-color: var(--subtitle);
+  color: var(--white);
+}
+.darkBtn:hover {
+  background-color: var(--cardBack);
+  transition: 0.5s;
+}
+.darkBtn img {
+  width: 20px;
+  margin-left: 10px;
+}
