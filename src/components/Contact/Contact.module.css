@@ -1,0 +1,41 @@
+.contact {
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.column {
+  flex-basis: 48%;
+}
+
+.contactContent {
+  color: var(--text);
+  margin: 80px 0;
+  display: flex;
+  align-items: center;
+}
+
+.messageTitle {
+  display: flex;
+  align-items: center;
+  color: var(--title);
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.messageText {
+  max-width: 450px;
+}
+.messageIcon {
+  width: 35px;
+  margin-left: 10px;
+}
+.messageListItem {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contactIcon {
+  width: 25px;
+  margin-right: 10px;
+}
