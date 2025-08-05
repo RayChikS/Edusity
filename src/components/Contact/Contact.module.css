@@ -11,7 +11,7 @@
   color: var(--text);
   margin: 80px 0;
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .messageTitle {
@@ -38,4 +38,36 @@
 .contactIcon {
   width: 25px;
   margin-right: 10px;
+}
+
+/*
+========================
+form
+========================
+*/
+
+.formInput,
+.formTextarea {
+  display: block;
+  width: 100%;
+  background-color: var(--inputBack);
+  padding: 15px;
+  border: 0;
+  outline: 0;
+  margin-bottom: 15px;
+  margin-top: 5px;
+  resize: none;
+}
+
+.darkBtn {
+  background-color: var(--subtitle);
+  color: var(--white);
+}
+.darkBtn:hover {
+  background-color: var(--cardBack);
+  transition: 0.5s;
+}
+.darkBtn img {
+  width: 20px;
+  margin-left: 10px;
 }

@@ -5,6 +5,7 @@ import massageIcon from "../../assets/msg-icon.png";
 import mailIcon from "../../assets/mail-icon.png";
 import phoneIcon from "../../assets/phone-icon.png";
 import locationIcon from "../../assets/location-icon.png";
+import arrow from "../../assets/white-arrow.png";
 
 export const Contact = () => {
   return (
@@ -48,35 +49,44 @@ export const Contact = () => {
           </ul>
         </div>
         <div className={css.column}>
-          <form action="#">
-            <label>Your Name</label>
+          <form className={css.form} action="#">
+            <label className={css.lable}>Your Name</label>
             <input
+              className={css.formInput}
               type="text"
               name="name"
               placeholder="Enter your name"
               required
             />
-            <label>Phone Number</label>
+            <label className={css.lable}>Phone Number</label>
             <input
-              type="text"
+              className={css.formInput}
+              type="tel"
               name="phone"
               placeholder="Enter your mobile number"
               required
             />
-            <label>Your Email</label>
+            <label className={css.lable}>Your Email</label>
             <input
-              type="text"
-              name="mail"
+              className={css.formInput}
+              type="email"
+              name="email"
               placeholder="Enter your email"
               required
             />
-            <label>Write your messages here</label>
+            <label className={css.lable}>Write your messages here</label>
             <textarea
+              className={css.formTextarea}
               type="text"
               name="message"
               placeholder="Enter your message"
+              rows="6"
               required
             />
+            <button className={`btn ${css.darkBtn}`} type="submit">
+              Submit now
+              <img src={arrow} alt="arrow icon" />
+            </button>
           </form>
         </div>
       </div>
