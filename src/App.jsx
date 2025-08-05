@@ -5,6 +5,7 @@ import { Programs } from "./components/Programs/Programs";
 import { About } from "./components/About/About";
 import { Campus } from "./components/Campus/Campus";
 import { Testimonials } from "./components/Testimonials/Testimonials";
+import { Contact } from "./components/Contact/Contact";
 
 export const App = () => {
   return (
@@ -16,6 +17,7 @@ export const App = () => {
         <About />
         <Campus />
         <Testimonials />
+        <Contact />
       </div>
     </div>
   );

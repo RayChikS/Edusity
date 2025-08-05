@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import css from "./Testimonials.module.css";
 import { Title } from "../Title/Title";
 import user1 from "../../assets/user-1.png";
@@ -9,9 +9,21 @@ import next_icon from "../../assets/next-icon.png";
 import back_icon from "../../assets/back-icon.png";
 
 export const Testimonials = () => {
+  const slider = useRef();
+  let tx = 0;
 
-    const slideForward = ()=>{}
-    const slideBackward = ()=>{}
+  const slideForward = () => {
+    if (tx > -50) {
+      tx -= 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
+  const slideBackward = () => {
+    if (tx < 0) {
+      tx += 25;
+    }
+    slider.current.style.transform = `translateX(${tx}%)`;
+  };
 
   return (
     <div className={css.testimonialsContainer}>
@@ -21,16 +33,17 @@ export const Testimonials = () => {
           className={css.backBtn}
           src={back_icon}
           alt="back button"
-          onClick={slideForward}
+          onClick={slideBackward}
         />
+
         <img
           className={css.nextBtn}
           src={next_icon}
           alt="next button"
-          onClick={slideBackward}
+          onClick={slideForward}
         />
         <div className={css.slider}>
-          <ul className={css.slideList}>
+          <ul className={css.slideList} ref={slider}>
             <li className={css.slide}>
               <div className={css.slideContent}>
                 <div className={css.slideHeader}>
