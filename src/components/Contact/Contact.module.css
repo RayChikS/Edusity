@@ -71,3 +71,8 @@ form
   width: 20px;
   margin-left: 10px;
 }
+
+.formStatus {
+  display: block;
+  margin: 20px 0;
+}
