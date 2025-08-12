@@ -76,3 +76,21 @@ form
   display: block;
   margin: 20px 0;
 }
+
+/*
+========================
+MEDIA
+========================
+*/
+
+@media (max-width: 700px) {
+  .contactContent {
+    display: block;
+  }
+  .column {
+    padding: 20px;
+  }
+  .contactSpan {
+    max-width: 245px;
+  }
+}

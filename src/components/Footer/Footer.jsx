@@ -6,10 +6,10 @@ export const Footer = () => {
     <footer className={css.footer}>
       <p>© 2024 Edusity. All rights reserved.</p>
       <ul className={css.terms}>
-        <li>
+        <li className={css.termsItem}>
           <a href="#">Terms of Services</a>
         </li>
-        <li>
+        <li className={css.termsItem}>
           <a href="#">Privacy Policy</a>
         </li>
       </ul>

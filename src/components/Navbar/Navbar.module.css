@@ -2,7 +2,6 @@ nav {
   width: 100%;
   /* background: var(--lightblack); */
   color: var(--white);
-  padding: 4px 0;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,4 +24,51 @@ nav {
 .darkBar {
   background-color: var(--subtitle);
   transition: 0.5s;
+}
+.burgerIcon {
+  display: none;
+}
+
+/*
+========================
+MEDIA
+========================
+*/
+
+@media (max-width: 1000px) {
+  .logo {
+    width: 140px;
+  }
+  .navListItem {
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 840px) {
+  nav {
+    padding: 15px 0;
+  }
+  .navList {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--subtitle);
+    z-index: -1;
+    width: 200px;
+    padding-top: 70px;
+    transition: 0.5s;
+  }
+  .navListItem {
+    display: block;
+    margin: 25px 40px;
+  }
+  .burgerIcon {
+    display: block;
+    width: 30px;
+    cursor: pointer;
+  }
+  .hideMobileMenu {
+    right: -200px;
+  }
 }

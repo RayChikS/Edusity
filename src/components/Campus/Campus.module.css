@@ -10,6 +10,7 @@
   margin-bottom: 40px;
 }
 .listItem {
+  width: 90%;
 }
 .listImg {
   border-radius: 10px;
@@ -27,4 +28,19 @@
 .darkBtn img {
   width: 20px;
   margin-left: 10px;
+}
+
+/*
+========================
+MEDIA 
+========================
+*/
+
+@media (max-width: 800px) {
+  .campusList {
+    flex-wrap: wrap;
+  }
+  .listItem {
+    width: 50%;
+  }
 }

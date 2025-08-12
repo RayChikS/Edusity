@@ -22,6 +22,9 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+.playIcon {
 }
 .aboutSubtitle {
   font-weight: 600;
@@ -37,4 +40,27 @@
 .aboutText {
   color: var(--text);
   margin-bottom: 15px;
+}
+
+/*
+========================
+MEDIA
+========================
+*/
+@media (max-width: 800px) {
+  .about {
+    flex-direction: column;
+  }
+  .aboutLeft {
+    flex-basis: 100%;
+    margin: 20px;
+    order: 2;
+  }
+  .aboutRight {
+    flex-basis: 100%;
+  }
+}
+@media (max-width: 650px) {
+  .about {
+  }
 }

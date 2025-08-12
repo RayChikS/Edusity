@@ -44,3 +44,19 @@
   width: 60px;
   margin-bottom: 10px;
 }
+
+/*
+========================
+MEDIA
+========================
+*/
+
+@media (max-width: 650px) {
+  .programsList {
+    flex-direction: column;
+  }
+  .programListItem {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+}

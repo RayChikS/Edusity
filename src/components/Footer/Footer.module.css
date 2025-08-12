@@ -12,3 +12,24 @@
   align-items: center;
   gap: 20px;
 }
+
+/*
+========================
+MEDIA
+========================
+*/
+
+@media (max-width: 600px) {
+  .footer {
+    display: block;
+    text-align: center;
+  }
+  .terms {
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .termsItem{
+    margin: 10px;
+  }
+
+}

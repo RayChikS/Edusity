@@ -27,7 +27,7 @@ export const Testimonials = () => {
 
   return (
     <div className={css.testimonialsContainer} id="testimonials">
-      <Title subtitle="Testimonials" title="What Our Students Say" />
+      <Title subtitle="Testimonials" title="What Student Says" />
       <div className={css.testimonials}>
         <img
           className={css.backBtn}
