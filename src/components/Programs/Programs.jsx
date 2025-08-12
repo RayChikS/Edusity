@@ -10,7 +10,7 @@ import { Title } from "../Title/Title";
 
 export const Programs = () => {
   return (
-    <div className={css.programs}>
+    <div className={css.programs} id="program">
       <Title subtitle="Our PROGRAMS" title="What We Offer" />
       <ul className={css.programsList}>
         <li className={css.programListItem}>

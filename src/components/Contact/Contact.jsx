@@ -34,7 +34,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className={css.contact}>
+    <div className={css.contact} id="contact">
       <Title subtitle="Contact Us" title="Get in Touch" />
       <div className={css.contactContent}>
         <div className={css.column}>

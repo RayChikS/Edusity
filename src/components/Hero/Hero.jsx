@@ -4,7 +4,7 @@ import darkArrow from "../../assets/dark-arrow.png";
 
 export const Hero = () => {
   return (
-    <div className={css.hero}>
+    <div className={css.hero} id="hero">
       <div className="container">
         <div className={css.heroText}>
           <h1 className={css.title}>
@@ -16,7 +16,8 @@ export const Hero = () => {
             field of education
           </p>
           <button className="btn">
-            Explore more <img className="btnImg" src={darkArrow} alt="dark arrow icon" />
+            Explore more{" "}
+            <img className="btnImg" src={darkArrow} alt="dark arrow icon" />
           </button>
         </div>
       </div>

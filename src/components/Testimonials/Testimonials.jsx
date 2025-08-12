@@ -26,7 +26,7 @@ export const Testimonials = () => {
   };
 
   return (
-    <div className={css.testimonialsContainer}>
+    <div className={css.testimonialsContainer} id="testimonials">
       <Title subtitle="Testimonials" title="What Our Students Say" />
       <div className={css.testimonials}>
         <img

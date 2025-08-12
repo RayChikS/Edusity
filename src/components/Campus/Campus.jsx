@@ -9,7 +9,7 @@ import arrow from "../../assets/white-arrow.png";
 
 export const Campus = () => {
   return (
-    <div className={css.campus}>
+    <div className={css.campus} id="campus">
       <Title subtitle="Gallery" title="Campus Photos" />
       <ul className={css.campusList}>
         <li className={css.listItem}>
